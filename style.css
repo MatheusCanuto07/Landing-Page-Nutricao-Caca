@@ -228,7 +228,19 @@ Large	lg	≥992px
 Extra large	xl	≥1200px
 Extra extra large	xxl	≥1400px 
 */
-@media (max-width: 576px) {
+@media (min-width: 400px) and (max-width: 469px) {
+  .btn-quero-text{
+    font-size: 14px;
+  }
+  .btn-quero{
+    padding: 8px 20px;
+  }
+  .card-desafio{
+    padding: 15px 15px 4px 15px;
+  }
+  .pai-botao-desafio{
+    padding: 6px 23px 6px 18px;
+  }
   #logo h1{
     font-size: 14px;
   }
@@ -239,7 +251,10 @@ Extra extra large	xxl	≥1400px
   .card-desafio{
     width: 100%;
   }
-  .card-desafio .pai-botao-desafio{
+  .card-desafio{
+    padding: 15px 15px 4px 15px;
+  }
+  .pai-botao-desafio{
     padding: 15px 23px 4px 15px;
   }
   .card-desafio h1{
@@ -249,10 +264,57 @@ Extra extra large	xxl	≥1400px
     font-size: 16px;
   }
   .btn-quero{
-    padding: 8px 28px;
+    /* padding: 8px 28px; */
   }
   .btn-quero-text{
-    font-size: 12px;
+    font-size: 16px;
+  }
+  #text-desafio{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  .titulo-padrao{
+    font-size: 18px;
+  }
+  .paragrafo-padrao{
+    font-size: 16px;
+    line-height: 38px;
+  }
+  .icone-wpp{
+    width: 65px;
+    height: 65px;
+  }
+}
+@media (min-width: 469px) and (max-width: 768px){
+  #logo h1{
+    font-size: 14px;
+  }
+  #pai-lista-nav li{
+    font-size: 14px;
+    width: 100%;
+  }
+  .card-desafio{
+    width: 100%;
+  }
+  .card-desafio{
+    padding: 15px 15px 4px 15px;
+  }
+  .pai-botao-desafio{
+    padding: 15px 23px 4px 15px;
+  }
+  .card-desafio h1{
+    font-size: 20px;
+  }
+  .card-desafio ul li p{
+    font-size: 16px;
+  }
+  .btn-quero{
+    /* padding: 8px 28px; */
+  }
+  .btn-quero-text{
+    font-size: 16px;
   }
   #text-desafio{
     font-size: 24px;
